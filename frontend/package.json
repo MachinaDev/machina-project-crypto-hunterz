@@ -1,0 +1,77 @@
+{
+  "name": "machina-project-crypto-hunterz-client",
+  "version": "0.1.0",
+  "description": "Client React de l'application Crypto Hunterz",
+  "author": "Maxime NOEL",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.16.5",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.0.0",
+    "axios": "^0.24.0",
+    "buffer": "^6.0.3",
+    "coingecko-api": "^1.0.10",
+    "crypto-browserify": "^3.12.0",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "fs": "0.0.1-security",
+    "https-browserify": "^1.0.0",
+    "jwt-decode": "^3.1.2",
+    "material-ui-chip-input": "^1.1.0",
+    "moment": "^2.29.1",
+    "moralis": "0.0.176",
+    "os-browserify": "^0.3.0",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-app-rewired": "^2.1.9",
+    "react-dom": "^17.0.2",
+    "react-file-base64": "^1.0.3",
+    "react-google-login": "^5.2.2",
+    "react-moralis": "^0.3.11",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "web-vitals": "^2.1.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
